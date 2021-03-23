@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Calculadora Simples</title>
+    </head>
+    <body>
+        <div class="tela-cal">
+            <div>
+                <h1>Calcular</h1>
+            </div>
+            
+            <div class="input">
+                <input type="number" class="n1" id="n1" name="numero-1" placeholder="Valor 1"> 
+                <br>
+                <input type="number" id="n2" name="numero-2" placeholder="Valor 2">
+                <br>
+                <br>
+                <select id="operador">
+                    <option value="*">multiplicar</option>
+                    <option value="/">dividir</option>
+                    <option value="+">somar</option>
+                    <option value="-">subtrair</option>
+                </select>
+                <br>
+                <br>
+                <div>
+                    <input class="btn" type="button" value="Calcular" onclick="calcular()">
+                    <input type="button" class="btn limpar" value="Limpar" onclick="limpar()">
+                </div>
+                <p class="resultado1"></p>
+                <p class="resultado2"></p>
+            </div>
+        </div>
+
+        <!-- <script src="cordova.js"></script> -->
+        <script src="js/index.js"></script>
+    </body>
+</html>

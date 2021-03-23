@@ -1,0 +1,25 @@
+
+body {
+    background-color: gray;
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+div.tela-cal{
+    margin: auto;
+    margin-top: 30%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: inline-table;
+}
+p{
+    font-size: 30pt;
+}
+.btn{
+    background-color: rgb(44, 43, 43);
+}
